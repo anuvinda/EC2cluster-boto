@@ -5,7 +5,7 @@ import time
 SERVER_TYPES = {
 				'ec2' : {
 						'placement' : 'us-east-1a',
-						'image_id' : 'ami-3275ee5b',
+						'image_id' : 'ami8876',
 						'instance_type' : 't1.micro',
 						'security_groups' : ['quick-start-1'],
 						'key_name' : 'ec2_anuvinda',
@@ -18,8 +18,8 @@ class EC2Conn:
 
 	def __init__(self):
 		self.conn = None
-		self.access_key = 'AKIAJE6VE6PP4G4PU4JQ'
-		self.secret_key = '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'
+		self.access_key = 'ABCD'
+		self.secret_key = 'ABCD'
 		print 'Keys are provided'
 		
 	def connect(self):
